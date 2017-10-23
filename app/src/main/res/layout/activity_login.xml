@@ -2,6 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/b"
     android:id="@+id/activity_login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -55,14 +56,14 @@
             android:layout_height="48dp"
             android:orientation="horizontal"
             android:gravity="center"
-            android:background="@drawable/shape_login_linear"
+            android:background="@drawable/shape_login"
             >
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="用户名："
                 android:textSize="16sp"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 />
         </LinearLayout>
         <EditText
@@ -90,14 +91,14 @@
             android:layout_height="48dp"
             android:orientation="horizontal"
             android:gravity="center"
-            android:background="@drawable/shape_login_linear"
+            android:background="@drawable/shape_login"
             >
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="密码："
                 android:textSize="16sp"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 />
         </LinearLayout>
         <EditText
@@ -129,13 +130,15 @@
         android:layout_width="80dp"
         android:layout_height="50dp"
         android:layout_below="@+id/mima"
-        android:layout_marginLeft="60dp"
+        android:layout_marginLeft="50dp"
         android:layout_marginTop="20dp"
-        android:background="#EA566C"
+
         android:gravity="center"
         android:text="登录"
         android:textColor="#FFFFFF"
-        android:textSize="17sp" />
+        android:textSize="17sp"
+        android:background="@drawable/shape_login"
+        />
 
 
 </RelativeLayout>
