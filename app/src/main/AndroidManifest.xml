@@ -19,6 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Top_search"></activity>
+        <activity android:name=".MyInfo"></activity>
+        <activity android:name=".Fragment_contact_list"></activity>
+
     </application>
 
 </manifest>
