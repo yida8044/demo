@@ -7,6 +7,10 @@
     <string name="action_card">我的银行卡</string>
     <string name="action_settings">设置</string>
     <string name="action_feed">意见反馈</string>
+    <string name="attach_location">位置</string>
+    <string name="attach_picture">图片</string>
+    <string name="attach_take_pic">拍照</string>
+    <string name="button_send">发送</string>
     <string name="plus_group_chat">发起群聊</string>
     <string name="plus_add_friend">添加朋友</string>
     <string name="plus_video_chat">视频聊天</string>
